@@ -12,14 +12,6 @@ import Total from "./components/Total";
 const store = createStore(carReducer);
 
 const App = ({ car, additionalFeatures, additionalPrice }) => {
-	const removeFeature = item => {
-		// dispatch an action here to remove an item
-	};
-
-	const buyItem = item => {
-		// dipsatch an action here to add an item
-	};
-
 	return (
 		<Provider store={store}>
 			<div className="boxes">
